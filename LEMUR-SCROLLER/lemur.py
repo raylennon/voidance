@@ -8,8 +8,7 @@ from rgbmatrix import graphics
 import time
 
 
-import get-lemur-data
-
+import getlemurdata
 
 class Lemur(SampleBase):
 	def __init__(self, *args, **kwargs):        
