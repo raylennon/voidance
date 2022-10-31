@@ -15,7 +15,7 @@ import time
 
 delay = 0.01
 
-#import getlemurdata
+import getlemurdata
 
 options = RGBMatrixOptions()
 options.rows = 32
@@ -77,7 +77,7 @@ for line in lines:
         donames = True
         names = names[0].split('/')
         
-        namestr = f"The Duke Lemur Center has {len(names)} {lemur}s! Their names are "
+        namestr = f"The Duke Lemur Center has {len(names)} {lemur[:-2]}s! Their names are "
         for i in range(len(names)-1):
             namestr+= names[i]
             namestr+= ", "
