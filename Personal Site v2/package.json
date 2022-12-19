@@ -1,0 +1,24 @@
+{
+  "name": "whatsduewhen",
+  "version": "1.0.0",
+  "description": "Synching all the Duke assignment platforms!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raylennon/WhatsDueWhen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raylennon/WhatsDueWhen/issues"
+  },
+  "homepage": "https://github.com/raylennon/WhatsDueWhen#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "sakai-api": "0.1.0-beta.0"
+  }
+}
